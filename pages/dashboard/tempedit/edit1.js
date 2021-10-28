@@ -1,7 +1,7 @@
 import Navbar_dashboard from "../../../components/Navbar_dashboard";
 
 
-const edit1 = () => {
+const Edit1 = () => {
 
   return (
     <>
@@ -19,4 +19,4 @@ const edit1 = () => {
   );
 };
 
-export default edit1;
+export default Edit1;

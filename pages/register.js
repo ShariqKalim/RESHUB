@@ -5,7 +5,7 @@ import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
-const register = () => {
+const Register = () => {
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -137,4 +137,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;

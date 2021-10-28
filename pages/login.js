@@ -5,7 +5,7 @@ import { firebase, auth } from "../firebase";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import { toast } from "react-toastify";
-const login = () => {
+const Login = () => {
   const router = useRouter();
   const signInWithGoogle = async () => {
     const google_provider = new firebase.auth.GoogleAuthProvider();
@@ -101,4 +101,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;

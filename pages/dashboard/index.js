@@ -8,7 +8,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar_dashboard from "../../components/Navbar_dashboard";
-const index = () => {
+const Index = () => {
   const [isUserSignedIn, setIsUserSignedIn] = useState(true);
 
   firebase.auth().onAuthStateChanged((user) => {
@@ -69,4 +69,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

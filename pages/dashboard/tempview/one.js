@@ -5,7 +5,7 @@ import { firebase } from "../../../firebase";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
-const one = () => {
+const One = () => {
   const router = useRouter();
   const [isUserSignedIn, setIsUserSignedIn] = useState(true);
 
@@ -43,4 +43,4 @@ const one = () => {
   );
 };
 
-export default one;
+export default One;

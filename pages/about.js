@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 
-const about = () => {
+const About = () => {
   return (
     <>
       <Navbar />
@@ -58,4 +58,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
