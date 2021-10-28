@@ -1,5 +1,4 @@
 import Navbar_dashboard from "../../../components/Navbar_dashboard";
-import Notices from "../../../components/Notices";
 
 
 const edit1 = () => {
