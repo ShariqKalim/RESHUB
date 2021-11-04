@@ -1,12 +1,13 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <>
       <div className="mt-2 flex justify-between">
-        <div>
+        <div className="ml-10">
           <Link href="/">
-            <img src="images/logo.png" alt="Logo" className="w-40 ml-10" />
+            <Image src="/images/logo.png" alt="Logo" width="190" height="90" ></Image>
           </Link>
         </div>
         <div className="w-8/12 mt-3">

@@ -2,6 +2,7 @@ import router from "next/router";
 import { useState, useEffect } from "react";
 import { firebase } from "../../firebase";
 import Link from "next/link";
+import Image from 'next/image'
 
 import VisibilityIcon from "@mui/icons-material/Visibility";
 
@@ -43,11 +44,9 @@ const Index = () => {
       <div className="w-11/12 mx-auto mt-5">
         {/* starting of parts */}
         <div className="w-80 rounded-xl h-80 border-2 border-indigo-200 transform hover:scale-105 shadow-lg">
-          <img
-            src="images/templates/1.jpg"
+        <Image src="/images/templates/1.jpg"
             alt="template 1"
-            className="w-full h-60"
-          />
+            className="" height="250" width="300"></Image>
           <div className="w-32 mr-3 mt-3 flex justify-around float-right ">
             <h1>
               <Link href="/dashboard/tempview/one">

@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 const Main = () => {
   return (
     <>
       <div className="w-11/12 mx-auto flex justify-between">
         <div className="w-7/12 mt-14">
-          <img src="images/front.png" alt="front image" />
+          <Image src="/images/front.png" alt="front image" width="700" height="483"></Image>
         </div>
         <div className="my-28">
           <h1 className="text-6xl font-bold">India's No. 1 Resume Site</h1>

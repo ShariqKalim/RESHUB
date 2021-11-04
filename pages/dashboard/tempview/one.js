@@ -4,6 +4,7 @@ import { useState } from "react";
 import { firebase } from "../../../firebase";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from "next/image";
 
 const One = () => {
   const router = useRouter();
@@ -26,7 +27,7 @@ const One = () => {
 
       <div className="-mt-28 -ml-40 h-screen">
         <div className="  border-4 shadow-lg border-indigo-100 w-6/12  float-right m-10  h-3/5 overflow-y-auto -mt-96">
-          <img src="/images/templates/1.jpg" alt="" className="mx-auto " />
+          <Image width="900" height="1300" src="/images/templates/1.jpg" alt="" className="mx-auto " ></Image>
         </div>
       </div>
       <div className="-mt-60">
