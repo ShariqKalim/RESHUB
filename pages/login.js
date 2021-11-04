@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import TextField from "@mui/material/TextField";
-import Link from "next/Link";
+import Link from "next/link";
 import { firebase, auth } from "../firebase";
 import { useRouter } from "next/router";
 import { useState } from "react";
