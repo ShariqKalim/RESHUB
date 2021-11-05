@@ -20,7 +20,7 @@ const Contact = () => {
     const { name, email, designation, message } = user;
     if (name && email && designation && message) {
       const res = await fetch(
-        "https://reshub-2cd4e-default-rtdb.firebaseio.com/reshubcontact.json",
+        "https://reshub-e4f17-default-rtdb.firebaseio.com/reshubcontact.json",
         {
           method: "POST",
           headers: {
@@ -41,7 +41,7 @@ const Contact = () => {
           designation: "",
           message: "",
         });
-        toast.warn("Thanks for submitting!", {
+        toast.success("Thanks for submitting!", {
           position: "top-center",
           autoClose: 2000,
         });
